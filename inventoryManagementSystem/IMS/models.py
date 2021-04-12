@@ -23,3 +23,13 @@ class packagingMaterials(models.Model):
     packMatId = models.ForeignKey(packagedProducts)
     quantity_used = models.CharField()
     units = models.CharField()
+class materialClass(models.Model):
+    packaging_materials = models.CharField(max_length=100)
+    raw_materials = models.CharField(max_length=100)
+
+class materials(models.Model):
+    name = models.
+
+class packagedProducts(models.Model):
+
+class shippingProducts(models.Model):
