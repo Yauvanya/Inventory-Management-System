@@ -1,3 +1,3 @@
 from django.shortcuts import render
-import * from serializers
+from serializers import * 
 # Create your views here.
