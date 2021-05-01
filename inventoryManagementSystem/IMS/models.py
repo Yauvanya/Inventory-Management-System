@@ -28,7 +28,7 @@ class packagedProducts(models.Model):
         (3,"kg"),
         (4,"ml"),
         (5,"l")
-    ] 
+    ]
     id = models.AutoField(primary_key=True)
     name = models.TextField(max_length=100,unique=True)
     ingredient = models.ManytoManyField(rawMaterials)
